@@ -307,50 +307,6 @@ cryptography>=3.4.8
 seaborn>=0.11.0
 pandas>=1.3.0
 ```
-
 完整依赖列表请参考 `requirements.txt`。
-
-## 🤝 贡献指南
-
-欢迎贡献代码！请遵循以下步骤：
-
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 创建 Pull Request
-
-## 📄 许可证
-
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
-
-## 📚 引用
-
-如果您在研究中使用了本项目，请引用：
-
-```bibtex
-@article{strength_driven_phase_transition_2024,
-  title={Strength-Driven Phase-Transition Authentication for Reference-Free Edge Images},
-  author={Your Name},
-  journal={Your Journal},
-  year={2024}
-}
-```
-
-## 📞 联系方式
-
-- 项目链接: [GitHub Repository](https://github.com/your-username/DiffCrypto_710)
-- 问题反馈: [Issues](https://github.com/your-username/DiffCrypto_710/issues)
-- 邮箱: your.email@example.com
-
-## 🙏 致谢
-
-感谢以下开源项目的支持：
-- [PyTorch](https://pytorch.org/)
-- [OpenCV](https://opencv.org/)
-- [scikit-learn](https://scikit-learn.org/)
-- [Transformers](https://huggingface.co/transformers/)
-
----
 
 **注意**: 本项目基于学术研究实现，仅供学习和研究使用。在生产环境中使用前，请进行充分的安全评估和测试。
