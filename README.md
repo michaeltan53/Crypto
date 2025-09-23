@@ -77,23 +77,7 @@ DiffCrypto_710/
 └── requirements.txt                # Dependencies list
 ```
 
-## 🔬 Core Algorithms
-
-### 1. Phase Transition Detection
-
-```python
-# Stabilized logarithmic residual ratio
-z₁(S) = ln[(Δ'geom(S) + ε)/(Δ'sem(S) + ε)]
-
-# Monotonicity verification
-kendall_tau, p_value = stats.kendalltau(S, z1)
-
-# Critical point calibration
-S_c = find_zero_crossing(z1)
-```
-
-### 2. Adaptive Fusion
-
+## 🔬 Core Algorithms (Adaptive Fusion)
 ```python
 # Supercritical probability
 π(t) = Pr(S > S_c | z_t)
@@ -103,20 +87,6 @@ S_c = find_zero_crossing(z1)
 
 # Fused residual
 Φ(t) = (1-ω(t))Δ'sem(t) + ω(t)Δ'geom(t)
-```
-
-### 3. Security Protocol
-
-```python
-# Challenge generation
-challenge = {'r': random_128bit, 'Ctr_s': counter, 't_exp': expiration}
-
-# Key derivation
-session_key = HKDF(master_key, challenge, domain_info)
-
-# Message binding
-message = CBOR{fused_residual, S_hat, S_c, challenge}
-hmac = HMAC_SHA256(session_key, message)
 ```
 
 ## 📊 Experimental Results
@@ -250,16 +220,6 @@ python demo_phase_transition.py
 - Adaptive fusion display
 - Security protocol demonstration
 - Evaluation metrics display
-
-## 📈 Visualization Results
-
-After running experiments, the following visualization results will be generated:
-
-- `demo_phase_transition.png`: Phase transition detection results
-- `demo_adaptive_fusion.png`: Adaptive fusion weight changes
-- `authentication_comparison.png`: Authentication performance comparison
-- `critical_zone_comparison.png`: Critical zone performance comparison
-- `strength_estimation_comparison.png`: Strength estimation performance comparison
 
 ## 🔧 Configuration Options
 
