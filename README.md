@@ -1,4 +1,4 @@
-# Strength-Driven Phase-Transition Authentication for Reference-Free Edge Images
+# Single-Crossing Monotone Fusion for Streaming Image Authentication
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-red.svg)](https://pytorch.org)
