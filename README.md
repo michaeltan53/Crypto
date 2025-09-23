@@ -310,47 +310,6 @@ pandas>=1.3.0
 
 For the complete dependency list, please refer to `requirements.txt`.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Create a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📚 Citation
-
-If you use this project in your research, please cite:
-
-```bibtex
-@article{strength_driven_phase_transition_2024,
-  title={Strength-Driven Phase-Transition Authentication for Reference-Free Edge Images},
-  author={Your Name},
-  journal={Your Journal},
-  year={2024}
-}
-```
-
-## 📞 Contact
-
-- Project Link: [GitHub Repository](https://github.com/your-username/DiffCrypto_710)
-- Issue Tracker: [Issues](https://github.com/your-username/DiffCrypto_710/issues)
-- Email: your.email@example.com
-
-## 🙏 Acknowledgments
-
-Thanks to the following open-source projects for their support:
-- [PyTorch](https://pytorch.org/)
-- [OpenCV](https://opencv.org/)
-- [scikit-learn](https://scikit-learn.org/)
-- [Transformers](https://huggingface.co/transformers/)
-
 ---
 
 **Note**: This project is implemented based on academic research and is for learning and research purposes only. Please conduct thorough security assessment and testing before using in production environments.
